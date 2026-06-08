@@ -42,12 +42,6 @@ richtype`, remove with `uv tool uninstall richtype`.)
 Correct characters render in white, mistakes in red underline, and untyped text
 is dimmed. On completion you get your **WPM** and elapsed time.
 
-## Multiplayer (WIP)
-
-I'm playing with a FastAPI WebSocket server in `src/server/` to let two people
-race the same quote. It's not done yet (the `READY` flag is still `False`), so
-for now just use the CLI.
-
 ## License
 
 [MIT](LICENSE) © Mohamed GACHA
